@@ -1,0 +1,33 @@
+extends ./layout/index
+
+//- p= viajes esta forma de escribir hace lo mismo que la de abajo
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id risus felis. Morbi mattis convallis ex, in eleifend tortor rutrum mollis. Ut fringilla tristique accumsan. Nullam non fermentum nunc. Donec sed nisl vitae tellus mollis rutrum eget sed libero. Nunc dolor ex, convallis ut mauris et, efficitur condimentum sem. Ut efficitur, sem non cursus tincidunt, arcu ante fringilla felis, in maximus turpis velit sed justo. Vestibulum et lacus sem. 
+
+                p Praesent nec nibh non magna semper mattis nec ut est. Proin consequat vel nibh ut maximus. Mauris eleifend consectetur ligula, in ultricies mi feugiat sed. Quisque in finibus quam. Mauris ac enim eleifend, finibus massa ut, iaculis lacus. Aenean ligula justo, sagittis quis tincidunt ullamcorper, molestie nec nibh. In vehicula vehicula finibus. 
+
+                p Curabitur sollicitudin, ante quis volutpat lacinia, lectus nibh maximus tortor, sed laoreet sem justo ut enim. Sed imperdiet scelerisque ullamcorper. Quisque interdum molestie mi, vitae vulputate tellus tempor congue. Curabitur convallis elit non orci sagittis tempor. Pellentesque nec ligula sagittis, interdum lorem et, porta est. Etiam convallis magna eros. Fusce auctor ac urna in ornare. Fusce rutrum at turpis congue convallis.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Etiam convallis magna eros. Fusce auctor ac urna in ornare. Fusce rutrum at turpis congue convallis.
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Destinos increíbles
+                    p Etiam convallis magna eros. Fusce auctor ac urna in ornare. Fusce rutrum at turpis congue convallis.
+
+                .col-md-4
+                    img(src="img/icono_precio.svg", alt="icono precio", class="img-fluid mb-4")
+                    h2.mb-4 El mejor Precio
+                    p Etiam convallis magna eros. Fusce auctor ac urna in ornare. Fusce rutrum at turpis congue convallis.
